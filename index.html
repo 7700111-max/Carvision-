@@ -616,7 +616,7 @@
                 
                 // Шаг 2: Удаление фона
                 loaderText.textContent = '🎨 Удаление фона (это может занять 10-20 сек)...';
-                const noBg = await removeBackground(compressed);
+                const noBg = compressed;
                 
                 // Шаг 3: Распознавание через Gemini
                 loaderText.textContent = '🧠 Распознавание авто...';
